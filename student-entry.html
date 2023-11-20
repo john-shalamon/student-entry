@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Details Form</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    
 </head>
 <body>
 
@@ -33,6 +33,15 @@
         <label for="academicYear">Academic Year:</label>
         <input type="number" id="academicYear" placeholder="enter a number between 1 to 4"name="academicYear" min="1" max="4" required>
         <br>
+
+        <label for="Payment Method">Payment Method:</label>
+        <select id="Payment Method" name="Payment Method" required>
+            <option value="Cash on Delivery">Cash on Delivery</option>
+            <option value="Gpay">Gpay</option>
+            <option value="paytm">paytm</option>
+            
+            <!-- Add more options as needed -->
+        </select><br>
 
         <input type="submit" value="Submit">
     </form>
